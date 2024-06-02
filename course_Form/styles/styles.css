@@ -1,0 +1,82 @@
+/* 網頁CSS樣式 */
+img {
+	max-width: 100%;
+	object-fit: cover;
+  }
+/* head-CSS樣式 */
+.head-container12{
+	display: flex;
+	/* background-color: yellow; */
+	justify-content: center;/* 水平對齊 */
+	align-items: center;/* 項目的垂直對齊 */
+}
+
+
+.pageHeadLink{
+	background-color: rgb(234, 228, 228);
+    text-align: right;
+	margin: 10px;
+}
+
+.pageHeadLogo{
+	margin: 10px;
+}
+
+/* nav控制 */
+nav{
+	display: flex;
+}
+nav>.logoHex{
+	flex: none; 
+}
+nav>.home{
+	flex: auto;
+	width: 10px;text-align: right;
+	/* background-color: blue; */
+}
+nav>.package{
+	flex: auto;
+	width: 10px;text-align: right;
+	/* background-color: blue; */
+}
+nav>.connection{
+	flex: auto;
+	width: 10px;text-align: right;
+	/* background-color: blue; */
+}
+
+
+.pageHeadPic{
+	display: flex;
+	/* background-color: yellow; */
+	justify-content: center;/* 水平對齊 */
+	align-items: center;/* 項目的垂直對齊 */
+	margin: auto;
+}
+
+/* 容器 */
+.card-container{
+	display: flex;
+	justify-content: center;/* 水平對齊 */
+	align-items: center;/* 項目的垂直對齊 */
+	flex-wrap: wrap; /* 確保卡片在容器寬度不夠時自動換行 */
+	gap: 20px; /* 卡片之間的間距 */
+}
+
+.card {
+	width: 18rem;
+	text-align: center;	
+	/* 併排擺放 */	
+}
+.card-img-top {
+    width: 50%;height: auto;
+}
+.card-text{
+	/* 併排擺放 */
+	margin-bottom: 1rem;
+	text-align: left; /* 將文字左對齊 */
+	
+}
+.card-text ol {
+    text-align: left; /* 將列表左對齊 */
+}
